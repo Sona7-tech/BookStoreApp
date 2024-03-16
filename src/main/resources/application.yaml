@@ -1,0 +1,17 @@
+server:
+  port: 8083
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:2222/bookstore
+    username: root
+    password: password
+
+
+
+
